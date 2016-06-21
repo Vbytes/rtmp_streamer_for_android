@@ -15,10 +15,7 @@
         9.  闪光灯：开/关
         10. 自动美颜，磨皮
         11. H265支持
-### SDK下载
-       本SDK 提供如下三种获取方式:
-         *  使用vbyte云账户邮件向 songmm@exatech.cn索取;
-         *  从github下载 http://gitlab.vbyte.cn/songmm/android-streamer-project.git;  
+
 ### 使用方法
        1. 环境配置
           安装android studio 和ndk 以及java运行环境，ndk版本为android-ndk64-r10e-linux-x86_64.tar.bz2,
