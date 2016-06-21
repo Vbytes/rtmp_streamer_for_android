@@ -1,0 +1,98 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentTop="true"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            app:contentInsetStart="72dp"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <com.ksy.recordlib.service.view.CameraTextureView
+                android:id="@+id/textureview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="14dp"
+                android:src="@mipmap/btn_record"
+                app:elevation="6dp"
+                app:pressedTranslationZ="12dp" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/change"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:src="@mipmap/btn_switch"
+                app:elevation="6dp"
+                app:pressedTranslationZ="12dp"
+                android:layout_alignBottom="@+id/flash"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="66dp" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/flash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="bottom|end"
+                android:src="@mipmap/btn_flashlight"
+                app:elevation="6dp"
+                app:pressedTranslationZ="12dp"
+                android:layout_marginRight="160dp"
+                android:layout_alignBottom="@+id/fab" />
+
+            <TextView
+                android:id="@+id/bitrate"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="16dp"
+                android:textColor="@color/error_color"
+                android:textSize="10sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.heinrichreimersoftware.materialdrawer.DrawerView
+        android:id="@+id/drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true" />
+</android.support.v4.widget.DrawerLayout>

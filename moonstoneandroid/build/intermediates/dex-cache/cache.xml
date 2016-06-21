@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/songmm/mygitlab/android-streamer-project/moonstoneandroid/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="/home/songmm/mygitlab/android-streamer-project/moonstoneandroid/app/build/intermediates/pre-dexed/debug/classes-80e1cb65b43dd977c572fa4fbc0cfd61453e49fd.jar" />
+    </item>
+    <item
+        jar="/home/songmm/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/home/songmm/mygitlab/android-streamer-project/moonstoneandroid/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-cfee1bd59e2c8b31f4cbf940dd64914d42094f84.jar" />
+    </item>
+    <item
+        jar="/home/songmm/mygitlab/android-streamer-project/moonstoneandroid/app/build/intermediates/exploded-aar/moonstoneandroid/recordlib/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="831880e1c3354abe183068916d993772c5b16d6e">
+        <dex dex="/home/songmm/mygitlab/android-streamer-project/moonstoneandroid/app/build/intermediates/pre-dexed/debug/classes-6f675551069af317d764d2eb737d011aeb644571.jar" />
+    </item>
+    <item
+        jar="/home/songmm/mygitlab/android-streamer-project/moonstoneandroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/home/songmm/mygitlab/android-streamer-project/moonstoneandroid/app/build/intermediates/pre-dexed/debug/classes-0414683cf2b86e0f1a3dd3286489da028675ccb4.jar" />
+    </item>
+    <item
+        jar="/home/songmm/mygitlab/android-streamer-project/moonstoneandroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/home/songmm/mygitlab/android-streamer-project/moonstoneandroid/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-15a295b2cd09ee20c5478d74bc9c279bcd37de03.jar" />
+    </item>
+    <item
+        jar="/home/songmm/mygitlab/android-streamer-project/moonstoneandroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/home/songmm/mygitlab/android-streamer-project/moonstoneandroid/app/build/intermediates/pre-dexed/debug/classes-8e2e27f00ade3bbaaea2f4cbbe7edd2a2e1e0a5b.jar" />
+    </item>
+    <item
+        jar="/home/songmm/mygitlab/android-streamer-project/moonstoneandroid/app/build/intermediates/exploded-aar/com.heinrichreimersoftware.materialdrawer/library/2.1.2/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5d8fc46da25cd4359c2cd127b2b1246ecc72b582">
+        <dex dex="/home/songmm/mygitlab/android-streamer-project/moonstoneandroid/app/build/intermediates/pre-dexed/debug/classes-01337ddd144ba89372452e74c0426ee61ced2d4f.jar" />
+    </item>
+    <item
+        jar="/home/songmm/mygitlab/android-streamer-project/moonstoneandroid/app/build/intermediates/exploded-aar/com.android.support/palette-v7/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="926692214530f39eaed89159237d26cdc0ae6e48">
+        <dex dex="/home/songmm/mygitlab/android-streamer-project/moonstoneandroid/app/build/intermediates/pre-dexed/debug/classes-8d72507546d9614ce430ae67478cfb1cc45c0621.jar" />
+    </item>
+
+</items>

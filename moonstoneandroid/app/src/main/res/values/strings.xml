@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">vbyte publishing</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="video_bitrate">video bitrate</string>
+    <string name="video_profile">video profile</string>
+    <string name="video_frame_rate">video frame rate</string>
+    <string name="camera_type">camera type</string>
+    <string name="audio_bitrate">audio bitrate</string>
+    <string name="audio_sample_rate">audio sample rate</string>
+    <string name="video_size">video size</string>
+    <string name="choose">ok</string>
+    <string name="Url">url</string>
+    <string name="github">github</string>
+    <string name="rtmp_default">rtmp://101.200.130.59/live/livestream</string>
+</resources>
